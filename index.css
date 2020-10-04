@@ -11,8 +11,8 @@ body {
 .title {
   text-align: center;
   font-size: 2em;
-  margin-left: 10%
-  margin-right:10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .section {
@@ -22,7 +22,8 @@ body {
   margin-left: 8%;
   margin-right: 8%;
   margin-top: 5%;
-  padding: 10px;
+  margin-bottom: 5%;
+  padding: 12px;
 }
 
 .image {
