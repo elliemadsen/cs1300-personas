@@ -11,8 +11,6 @@ body {
 .title {
   text-align: center;
   font-size: 2em;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .section {
@@ -99,4 +97,50 @@ h3 {
 #sketch {
   width: 75%;
   height: auto;
+}
+
+@media only screen and (max-width:700px) {
+  /* For mobile phones: */
+.grid-1by3 {
+  padding: 50px;
+  padding-top: 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto;
+}
+
+.grid-1by2 {
+  padding: 30px;
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+}
+
+.block1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+.block2 {
+  grid-row: 2;
+  grid-column: 1;
+}
+.block3 {
+  grid-row: 3;
+  grid-column: 1;
+}
+.section {
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.title {
+  font-size: 7vw;
+}
+.heading {
+  font-size: 6vw;
+}
 }
